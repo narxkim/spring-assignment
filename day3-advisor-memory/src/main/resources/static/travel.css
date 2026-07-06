@@ -13,17 +13,18 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 32px;
 }
 
 .chat-app {
-    width: 460px;
-    height: 760px;
+    width: 700px;
+    min-height: 720px;
+    height: auto;
     background: #ffffff;
     border-radius: 28px;
     box-shadow: 0 24px 70px rgba(15, 23, 42, 0.18);
-    overflow: hidden;
+    overflow: visible;
     display: flex;
     flex-direction: column;
 }
@@ -58,13 +59,14 @@ body {
 
 .chat-messages {
     flex: 1;
+    min-height: 600px;
     padding: 22px;
     background: #f8fafc;
     overflow-y: auto;
 }
 
 .message {
-    max-width: 82%;
+    max-width: 88%;
     padding: 13px 15px;
     margin-bottom: 14px;
     border-radius: 18px;
@@ -145,4 +147,36 @@ body {
 
 .chat-input-area button:hover {
     background: #1d4ed8;
+}
+
+
+.message.bot h1,
+.message.bot h2,
+.message.bot h3,
+.message.bot h4{
+    margin-top:18px;
+    margin-bottom:10px;
+}
+
+.message.bot p{
+    margin:10px 0;
+    line-height:1.8;
+}
+
+.message.bot ul{
+    padding-left:22px;
+}
+
+.message.bot li{
+    margin:8px 0;
+}
+
+.message.bot strong{
+    color:#2563eb;
+}
+
+.message.bot code{
+    background:#eef2ff;
+    padding:2px 6px;
+    border-radius:6px;
 }

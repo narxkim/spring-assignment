@@ -73,9 +73,15 @@ async function sendMessage() {
 }
 
 function appendMessage(text, type) {
+
     const div = document.createElement("div");
     div.className = `message ${type}`;
-    div.textContent = text;
+
+    if (type.includes("bot")) {
+        div.innerHTML = marked.parse(text);
+    } else {
+        div.textContent = text;
+    }
 
     messages.appendChild(div);
     messages.scrollTop = messages.scrollHeight;
