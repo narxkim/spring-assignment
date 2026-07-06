@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel Planner</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+<div class="chat-page">
+    <div class="chat-app">
+
+        <header class="chat-header">
+            <div>
+                <h1>AI 여행 플래너</h1>
+                <p>대화 내용을 기억하는 Spring AI 여행 챗봇</p>
+            </div>
+            <span id="modeBadge">Persistent H2</span>
+        </header>
+
+        <main id="chatMessages" class="chat-messages">
+            <div class="message bot">
+                안녕하세요. 여행지, 기간, 예산, 이동수단을 알려주시면 여행 계획을 추천해드릴게요.
+            </div>
+        </main>
+
+
+        <form id="chatForm" class="chat-input-area">
+            <textarea id="messageInput" placeholder="메시지를 입력하세요"></textarea>
+            <button type="submit">전송</button>
+        </form>
+
+    </div>
+</div>
+
+<script src="/travel.js"></script>
+</body>
+</html>

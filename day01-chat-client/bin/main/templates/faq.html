@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>기업 FAQ 응답기</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f5f7fb; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .chat-container { width: 95%; max-width: 800px; height: 85vh; background: #fff; box-shadow: 0 8px 24px rgba(0,0,0,0.1); border-radius: 16px; display: flex; flex-direction: column; overflow: hidden; }
+        .chat-header { background: #0ea5e9; color: white; padding: 18px; text-align: center; font-size: 1.1rem; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .chat-messages { flex: 1; padding: 24px; overflow-y: auto; background: #f8fafc; display: flex; flex-direction: column; gap: 14px; }
+        .message { max-width: 85%; padding: 14px 18px; border-radius: 14px; font-size: 0.95rem; line-height: 1.6; word-break: break-all; }
+        .message.user { background: #0ea5e9; color: white; align-self: flex-end; border-bottom-right-radius: 2px; white-space: pre-wrap; }
+        .message.ai { background: #e2e8f0; color: #1e293b; align-self: flex-start; border-bottom-left-radius: 2px; }
+        .message.ai p { margin: 0 0 8px 0; }
+        .message.ai p:last-child { margin-bottom: 0; }
+        .message.ai h3 { font-size: 1.1rem; margin: 12px 0 6px 0; color: #0c4a6e; }
+        .message.ai h4 { font-size: 1rem; margin: 10px 0 4px 0; color: #075985; }
+        .message.ai ul { margin: 4px 0 8px 0; padding-left: 20px; }
+        .message.ai li { margin-bottom: 4px; }
+        .message.system { background: transparent; color: #64748b; align-self: center; font-size: 0.85rem; text-align: center; }
+        .chat-input-area { display: flex; padding: 18px; background: white; border-top: 1px solid #e2e8f0; gap: 12px; }
+        .chat-input-area input { flex: 1; padding: 14px 20px; border: 1px solid #cbd5e1; border-radius: 30px; font-size: 0.95rem; outline: none; transition: border 0.2s; }
+        .chat-input-area input:focus { border-color: #0ea5e9; }
+        .chat-input-area button { background: #0ea5e9; color: white; border: none; padding: 0 24px; border-radius: 30px; font-size: 0.95rem; font-weight: bold; cursor: pointer; transition: background 0.2s; }
+        .chat-input-area button:hover { background: #0284c7; }
+    </style>
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header">🏢 기업 FAQ 응답기</div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message system">자주 묻는 질문을 입력하시면 비즈니스 답변 초안을 구성합니다.</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="question" placeholder="예: 결과 발표는 보통 언제 진행되나요?" onkeypress="if(event.keyCode==13) generateAnswer()">
+            <button onclick="generateAnswer()">전송</button>
+        </div>
+    </div>
+
+    <script>
+        function parseMarkdown(text) {
+            let html = text;
+            html = html.replace(/^#### (.*?)$/gm, '<h4>$1</h4>');
+            html = html.replace(/^### (.*?)$/gm, '<h3>$1</h3>');
+            html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            html = html.replace(/^\* (.*?)$/gm, '<li>$1</li>');
+            html = html.replace(/(<li>.*?<\/li>)/gs, '<ul>$1</ul>');
+            html = html.replace(/<\/ul>\s*<ul>/g, '');
+
+            const lines = html.split('\n');
+            const processedLines = lines.map(line => {
+                if (line.trim() === '') return '<br>';
+                if (line.startsWith('<h') || line.startsWith('<u') || line.startsWith('<l')) return line;
+                return `<p>${line}</p>`;
+            });
+
+            return processedLines.join('');
+        }
+
+        function generateAnswer() {
+            const qInput = document.getElementById('question');
+            const chatMessages = document.getElementById('chatMessages');
+            const q = qInput.value.trim();
+
+            if (!q) return alert('질문을 입력해주세요.');
+
+            const userMsg = document.createElement('div');
+            userMsg.className = 'message user';
+            userMsg.innerText = q;
+            chatMessages.appendChild(userMsg);
+
+            qInput.value = '';
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            const aiMsg = document.createElement('div');
+            aiMsg.className = 'message ai';
+            aiMsg.innerText = '답변 초안을 작성하고 있습니다...';
+            chatMessages.appendChild(aiMsg);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            fetch(`/api/faq?q=${encodeURIComponent(q)}`)
+                .then(res => res.text())
+                .then(data => {
+                    aiMsg.innerHTML = parseMarkdown(data);
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                })
+                .catch(err => {
+                    aiMsg.innerText = '오류가 발생했습니다.';
+                });
+        }
+    </script>
+</body>
+</html>

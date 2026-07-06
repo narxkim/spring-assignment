@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f153ef77-57bb-4030-997c-d54bd056f881" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/day2-prompt-output.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spring-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/main/study/day01_chat_client/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/main/study/day01_chat_client/ChatModelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/main/study/day01_chat_client/ChatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/main/study/day01_chat_client/ChatViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/main/study/day01_chat_client/Day01ChatClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/main/templates/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/main/templates/interview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/bin/test/study/day01_chat_client/Day01ChatClientApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/classes/java/main/study/day01_chat_client/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/classes/java/main/study/day01_chat_client/ChatModelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/classes/java/main/study/day01_chat_client/ChatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/classes/java/main/study/day01_chat_client/ChatViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/classes/java/main/study/day01_chat_client/Day01ChatClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/resources/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/resources/main/templates/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/resources/main/templates/interview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-chat-client/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/classes/java/main/com/study/day2promptoutput/ClassifyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/classes/java/main/com/study/day2promptoutput/ClassifyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/classes/java/main/com/study/day2promptoutput/Day2PromptOutputApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/classes/java/main/com/study/day2promptoutput/dto/MenuRecommendation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/reports/problems/problems-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/resources/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/resources/main/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/resources/main/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/resources/main/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/tmp/compileJava/compileTransaction/stash-dir/ClassifyController.class.uniqueId1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/tmp/compileJava/compileTransaction/stash-dir/ClassifyService.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-prompt-output/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/day3-advisor-memory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/java/com/study/day3advisormemory/Day3AdvisorMemoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/java/com/study/day3advisormemory/advisor/CallCounterAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/java/com/study/day3advisormemory/advisor/MaxCharLengthAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/java/com/study/day3advisormemory/config/ChatMemoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/java/com/study/day3advisormemory/controller/TravelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/java/com/study/day3advisormemory/service/MemoryTravelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/java/com/study/day3advisormemory/service/PersistentChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/java/com/study/day3advisormemory/service/TravelPlannerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/resources/static/travel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/main/resources/static/travel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/src/test/java/com/study/day3advisormemory/Day3AdvisorMemoryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2-prompt-output/.gradle/9.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/day2-prompt-output/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/day01-chat-client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/day2-prompt-output">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/day3-advisor-memory">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="day3-advisor-memory" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3G7GUEvixVxbD6jgye4sNgOP0mT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.day3-advisor-memory 빌드.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Day3AdvisorMemoryApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/금정산2-PC16/Desktop/spring-practice",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\금정산2-PC16\Desktop\spring-practice\day3-advisor-memory\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="Day3AdvisorMemoryApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Day3AdvisorMemoryApplication">
+    <configuration name="Day01ChatClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="day01-chat-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="study.day01_chat_client.Day01ChatClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day2PromptOutputApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="day2-prompt-output.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.day2promptoutput.Day2PromptOutputApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day3AdvisorMemoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="day3-advisor-memory.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.day3advisormemory.Day3AdvisorMemoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="f153ef77-57bb-4030-997c-d54bd056f881" name="변경" comment="" />
+      <created>1783315207569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783315207569</updated>
+      <workItem from="1783315208794" duration="8791000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

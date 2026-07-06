@@ -1,0 +1,82 @@
+# ==========================================
+# 1. 빌드 도구 및 결과물 (Spring Boot / Java)
+# ==========================================
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+# Log files
+*.log
+
+# ==========================================
+# 2. IDE 및 개발 툴 설정 파일
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# VS Code
+.vscode/
+
+# OS 관련 임시 파일
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 3. AI 및 데이터 분석 관련 (Python / Model)
+# ==========================================
+# Python 가상 환경 (스프링부트 내에서 파이썬 스크립트나 AI 모델 연동 시)
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# AI 모델 파일 및 대용량 데이터셋 (깃허브 용량 제한 방지 및 보안)
+*.h5
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.pb
+*.model
+data/
+datasets/
+
+# Jupyter Notebook 임시 파일
+.ipynb_checkpoints/
+
+# ==========================================
+# 4. 보안 및 환경 변수 (가장 중요)
+# ==========================================
+# API 키나 DB 비밀번호가 들어가는 설정 파일
+# (이 파일들을 숨기고 application-local.properties 등을 따로 쓰는 것을 권장합니다)
+.env
+.env.local
+application-local.properties
+application-local.yml
+
+# SQLite 및 로컬 데이터베이스 파일
+*.db
+*.sqlite
+*.sqlite3
