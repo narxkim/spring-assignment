@@ -145,7 +145,7 @@ JSON 응답
 ## 🚀 실행 방법
 
 ```bash
-git clone https://github.com/사용자명/저장소명.git
+git clone https://github.com/narxkim/spring-assignment.git
 
 cd 프로젝트명
 ```
