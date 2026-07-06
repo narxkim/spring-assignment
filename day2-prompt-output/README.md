@@ -124,8 +124,10 @@ JSON 응답
 
 ## 📷 실행 화면
 
+<p align="center">
+    <img src="./images/main.png" width="800">
+</p>
 
-![screencapture-localhost-8080-2026-07-03-15_51_39.png](../../../Downloads/screencapture-localhost-8080-2026-07-03-15_51_39.png)
 
 ---
 
