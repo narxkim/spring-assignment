@@ -8,10 +8,14 @@ Spring AI의 **Advisor**와 **Chat Memory**를 활용하여 구현한 AI 여행 
 
 ## Preview
 
-> 실행 화면
+<details>
+<summary>📸 실행 화면 보기</summary>
 
-<!-- 이미지 추가 -->
-![preview](./images/travel-planner.png)
+<br>
+
+![Preview](./images/travel-planner.png)
+
+</details>
 
 ---
 
