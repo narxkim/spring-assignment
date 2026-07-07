@@ -7,8 +7,8 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="day2-prompt-output.main" />
-        <module name="day2-prompt-output.test" />
+        <module name="day4-multimodal.main" />
+        <module name="day4-multimodal.test" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,6 +23,9 @@
       <module name="day3-advisor-memory" options="-parameters" />
       <module name="day3-advisor-memory.main" options="-parameters" />
       <module name="day3-advisor-memory.test" options="-parameters" />
+      <module name="day4-multimodal" options="-parameters" />
+      <module name="day4-multimodal.main" options="-parameters" />
+      <module name="day4-multimodal.test" options="-parameters" />
     </option>
   </component>
 </project>
