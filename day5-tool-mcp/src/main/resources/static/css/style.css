@@ -49,74 +49,70 @@ header p {
 }
 
 .chat-history {
-    height: 600px;
+    height: 520px;
     overflow-y: auto;
-    background: white;
+    background: #ffffff;
     border-radius: 20px;
-    padding: 25px;
+    padding: 24px;
     box-shadow: 0 12px 35px rgba(0,0,0,.08);
     margin-bottom: 20px;
 }
 
 .message {
     display: flex;
-    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.message.ai {
+    justify-content: flex-start;
 }
 
 .message.user {
     justify-content: flex-end;
 }
 
-.message.ai {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
 .profile {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: #2563eb;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    margin-right: 12px;
+    font-size: 18px;
     flex-shrink: 0;
 }
 
 .message.user .profile {
     background: #10b981;
-    margin-right: 0;
-    margin-left: 12px;
     order: 2;
 }
 
 .bubble {
-    display: inline-block;
-    max-width: 70%;
+    max-width: 68%;
     width: fit-content;
-
-    padding: 16px 20px;
-
+    padding: 14px 18px;
     border-radius: 18px;
-
     line-height: 1.7;
-
-    white-space: pre-wrap;
-
+    white-space: pre-line;
+    word-break: keep-all;
     text-align: left;
+    font-size: 15px;
 }
 
 .message.ai .bubble {
     background: #f3f4f6;
+    color: #111827;
+    border-top-left-radius: 6px;
 }
 
 .message.user .bubble {
     background: #2563eb;
     color: white;
+    border-top-right-radius: 6px;
 }
 
 .chat-box {
@@ -156,4 +152,56 @@ header p {
 
 #sendBtn:hover {
     background: #1d4ed8;
+}
+
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+    margin: 14px 0 10px;
+    color: #2563eb;
+}
+
+.markdown-body p {
+    margin: 8px 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+    padding-left: 22px;
+    margin: 10px 0;
+}
+
+.markdown-body li {
+    margin: 5px 0;
+}
+
+.markdown-body strong {
+    font-weight: 800;
+    color: #111827;
+}
+
+.markdown-body code {
+    background: #eef2ff;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+.markdown-body h2{
+    border-bottom:1px solid #e5e7eb;
+    padding-bottom:6px;
+    margin-top:24px;
+}
+
+.markdown-body strong{
+    color:#2563eb;
+}
+
+.markdown-body p{
+    line-height:1.8;
+}
+
+.loading{
+    color:#2563eb;
+    font-style:italic;
 }

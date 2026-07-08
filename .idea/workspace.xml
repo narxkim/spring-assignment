@@ -5,93 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f153ef77-57bb-4030-997c-d54bd056f881" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/data/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.idea/data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/main/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/main/com/study/day2promptoutput/ClassifyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/main/com/study/day2promptoutput/ClassifyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/main/com/study/day2promptoutput/Day2PromptOutputApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/main/com/study/day2promptoutput/dto/MenuRecommendation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/main/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/main/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/main/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-prompt-output/bin/test/com/study/day2promptoutput/Day2PromptOutputApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/com/study/day3advisormemory/Day3AdvisorMemoryApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/com/study/day3advisormemory/advisor/CallCounterAdvisor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/com/study/day3advisormemory/advisor/MaxCharLengthAdvisor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/com/study/day3advisormemory/config/ChatMemoryConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/com/study/day3advisormemory/controller/TravelController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/com/study/day3advisormemory/service/MemoryTravelService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/com/study/day3advisormemory/service/PersistentChatService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/com/study/day3advisormemory/service/TravelPlannerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/static/travel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/main/static/travel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3-advisor-memory/bin/test/com/study/day3advisormemory/Day3AdvisorMemoryApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/bin/main/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/bin/main/com/study/day4multimodal/Day4MultimodalApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/bin/test/com/study/day4multimodal/Day4MultimodalApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/classes/java/main/com/study/day4multimodal/Day4MultimodalApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/classes/java/main/com/study/day4multimodal/config/ChatMemoryConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/classes/java/main/com/study/day4multimodal/controller/LectureSummaryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/classes/java/main/com/study/day4multimodal/dto/LectureSummary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/classes/java/main/com/study/day4multimodal/service/LectureSummaryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/resources/main/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/resources/main/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/resources/main/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/resources/main/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4-multimodal/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/Day5ToolMcpApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/resolvedMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/resources/main/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/day5-tool-mcp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/Day5ToolMcpApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/config/ChatMemoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/controller/TravelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/mcp/McpToolCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/service/TravelChatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/tool/BudgetTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/tool/LocalAreaTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/tool/TravelPreferenceTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/src/test/java/com/study/day5toolmcp/Day5ToolMcpApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/service/TravelChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/service/TravelChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +242,7 @@
       <workItem from="1783410337994" duration="782000" />
       <workItem from="1783468266279" duration="18000" />
       <workItem from="1783487227011" duration="2713000" />
-      <workItem from="1783489952219" duration="7630000" />
+      <workItem from="1783489952219" duration="8567000" />
     </task>
     <servers />
   </component>
