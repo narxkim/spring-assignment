@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/day3-advisor-memory" />
     <file type="web" url="file://$PROJECT_DIR$/day4-multimodal" />
+    <file type="web" url="file://$PROJECT_DIR$/day5-tool-mcp" />
   </component>
   <component name="ProjectRootManager" version="2">
     <output url="file://$PROJECT_DIR$/out" />

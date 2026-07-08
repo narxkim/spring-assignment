@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #eef3f8;
+    font-family: "Pretendard", "Noto Sans KR", sans-serif;
+    color: #111827;
+}
+
+.container {
+    width: 900px;
+    margin: 40px auto;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #2563eb;
+}
+
+header p {
+    margin-top: 10px;
+    color: #6b7280;
+}
+
+#newChatBtn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    background: #10b981;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#newChatBtn:hover {
+    background: #059669;
+}
+
+.chat-history {
+    height: 600px;
+    overflow-y: auto;
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+    margin-bottom: 20px;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.message.user {
+    justify-content: flex-end;
+}
+
+.message.ai {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.profile {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.message.user .profile {
+    background: #10b981;
+    margin-right: 0;
+    margin-left: 12px;
+    order: 2;
+}
+
+.bubble {
+    display: inline-block;
+    max-width: 70%;
+    width: fit-content;
+
+    padding: 16px 20px;
+
+    border-radius: 18px;
+
+    line-height: 1.7;
+
+    white-space: pre-wrap;
+
+    text-align: left;
+}
+
+.message.ai .bubble {
+    background: #f3f4f6;
+}
+
+.message.user .bubble {
+    background: #2563eb;
+    color: white;
+}
+
+.chat-box {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+}
+
+#question {
+    width: 100%;
+    min-height: 120px;
+    resize: vertical;
+    border: 1px solid #d1d5db;
+    border-radius: 14px;
+    padding: 16px;
+    font-size: 15px;
+}
+
+#question:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+#sendBtn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sendBtn:hover {
+    background: #1d4ed8;
+}

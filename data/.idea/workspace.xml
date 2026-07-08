@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abfedb27-9bf7-435c-9190-5ceebcc5b064" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/chatmemory.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/classes/java/main/com/study/day3advisormemory/Day3AdvisorMemoryApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/classes/java/main/com/study/day3advisormemory/advisor/CallCounterAdvisor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/classes/java/main/com/study/day3advisormemory/advisor/MaxCharLengthAdvisor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/classes/java/main/com/study/day3advisormemory/config/ChatMemoryConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/classes/java/main/com/study/day3advisormemory/controller/TravelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/classes/java/main/com/study/day3advisormemory/service/MemoryTravelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/classes/java/main/com/study/day3advisormemory/service/PersistentChatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/classes/java/main/com/study/day3advisormemory/service/TravelPlannerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/reports/problems/problems-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/resources/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/resources/main/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/resources/main/static/travel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/resources/main/static/travel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/tmp/compileJava/compileTransaction/stash-dir/TravelController.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3-advisor-memory/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/9.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/9.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/9.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/9.5.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/day4-multimodal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/src/main/java/com/study/day4multimodal/Day4MultimodalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/src/main/java/com/study/day4multimodal/controller/LectureSummaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/src/main/java/com/study/day4multimodal/dto/LectureSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/src/main/java/com/study/day4multimodal/service/LectureSummaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4-multimodal/src/test/java/com/study/day4multimodal/Day4MultimodalApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01-chat-client/.gradle/9.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../day01-chat-client/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01-chat-client/.gradle/9.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../day01-chat-client/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2-prompt-output/.gradle/9.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../day2-prompt-output/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2-prompt-output/.gradle/9.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../day2-prompt-output/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/9.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/9.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../day3-advisor-memory/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3GAEKtO9aCTtL0WEaAwf1EWWopm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/금정산2-PC16/Desktop/spring-practice/data",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="abfedb27-9bf7-435c-9190-5ceebcc5b064" name="변경" comment="" />
+      <created>1783405912509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783405912509</updated>
+      <workItem from="1783405913649" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

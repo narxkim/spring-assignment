@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 점심 메뉴 추천기</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+
+      <h1>🍱 AI 점심 메뉴 추천기</h1>
+
+      <p>
+        Spring AI + Gemini를 이용하여
+        오늘의 상황에 맞는 점심 메뉴를 추천합니다.
+      </p>
+
+    </header>
+
+
+    <section class="card">
+
+      <h2>오늘의 상태 입력</h2>
+
+      <div class="input-group">
+
+        <label>😊 오늘 기분</label>
+        <input
+                type="text"
+                id="mood"
+                placeholder="예) 피곤함, 신남, 스트레스"
+        >
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>🌤 날씨</label>
+
+        <select id="weather">
+          <option>맑음</option>
+          <option>비</option>
+          <option>흐림</option>
+          <option>눈</option>
+        </select>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>💰 예산</label>
+
+        <select id="budget">
+          <option>5000원 이하</option>
+          <option>10000원 이하</option>
+          <option>15000원 이하</option>
+          <option>30000원 이하</option>
+          <option>50000원 이하</option>
+          <option>상관없음</option>
+        </select>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>🌶 맵기 선호</label>
+
+        <select id="spicy">
+          <option>매운 음식</option>
+          <option>안 매운 음식</option>
+          <option>상관없음</option>
+        </select>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>🍽 혼밥 여부</label>
+
+        <select id="alone">
+          <option>가능</option>
+          <option>불가능</option>
+        </select>
+
+      </div>
+
+
+      <button id="recommendBtn">
+
+        🍴 메뉴 추천받기
+
+      </button>
+
+    </section>
+
+
+
+    <section class="card result-card">
+
+      <h2>추천 결과</h2>
+
+      <div class="result-box">
+
+        <div class="result-item">
+
+          <span>🍱 추천 메뉴</span>
+
+          <strong id="menu">
+            -
+          </strong>
+
+        </div>
+
+        <div class="result-item">
+
+          <span>🍜 카테고리</span>
+
+          <strong id="category">
+            -
+          </strong>
+
+        </div>
+
+        <div class="result-item">
+
+          <span>💵 가격대</span>
+
+          <strong id="priceRange">
+            -
+          </strong>
+
+        </div>
+
+        <div class="result-item">
+
+          <span>🤖 AI 추천 이유</span>
+
+          <p id="reason">
+            아직 추천 결과가 없습니다.
+          </p>
+
+        </div>
+
+        <div class="result-item">
+
+          <span>📈 추천 신뢰도</span>
+
+          <strong id="confidence">
+            -
+          </strong>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>

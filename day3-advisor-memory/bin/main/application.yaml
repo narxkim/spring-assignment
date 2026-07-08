@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: day3-advisor-memory
+
+
+  ai:
+    google:
+      genai:
+        api-key: ${GOOGLE_API_KEY}  # 환경변수
+        chat:
+          model: gemini-3.1-flash-lite
+          temperature: 0.7
+
+    chat:
+      memory:
+        repository:
+          jdbc:
+            initialize-schema: always
+
+  # 1. 메인 데이터소스 설정에 AUTO_SERVER=TRUE를 붙여 다중 접속을 허용합니다.
+  datasource:
+    url: jdbc:h2:file:./data/chatmemory
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      #      path: /h2-console
+      # 2. H2 웹 콘솔도 메인 데이터소스(파일 모드)와 동일한 위치를 바라보도록 동기화합니다.
+      settings:
+        web-allow-others: true
+
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: DEBUG
