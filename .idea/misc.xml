@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/day01-chat-client" />
+    <file type="web" url="file://$PROJECT_DIR$/day2-prompt-output" />
     <file type="web" url="file://$PROJECT_DIR$/day3-advisor-memory" />
     <file type="web" url="file://$PROJECT_DIR$/day4-multimodal" />
     <file type="web" url="file://$PROJECT_DIR$/day5-tool-mcp" />
+    <file type="web" url="file://$PROJECT_DIR$/day6-intergration" />
   </component>
   <component name="ProjectRootManager" version="2">
     <output url="file://$PROJECT_DIR$/out" />

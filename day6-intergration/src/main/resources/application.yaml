@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: day6-integration
+
+  ai:
+    google:
+      genai:
+        api-key: ${GOOGLE_API_KEY}
+        chat:
+          model: gemini-3.1-flash-lite
+          temperature: 0.7
+    chat:
+      memory:
+        repository:
+          jdbc:
+            initialize-schema: always
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/helpdesk_day6
+    username: helpdesk
+    password: helpdesk
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: DEBUG

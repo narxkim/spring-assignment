@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/day2-prompt-output.main.iml" filepath="$PROJECT_DIR$/.idea/modules/day2-prompt-output.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/day3-advisor-memory.main.iml" filepath="$PROJECT_DIR$/.idea/modules/day3-advisor-memory.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/day4-multimodal.main.iml" filepath="$PROJECT_DIR$/.idea/modules/day4-multimodal.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/day5-tool-mcp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/day5-tool-mcp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/day6-intergration.main.iml" filepath="$PROJECT_DIR$/.idea/modules/day6-intergration.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-practice.iml" filepath="$PROJECT_DIR$/.idea/spring-practice.iml" />
     </modules>
   </component>

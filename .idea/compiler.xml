@@ -7,8 +7,8 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="day5-tool-mcp.main" />
-        <module name="day5-tool-mcp.test" />
+        <module name="day6-intergration.main" />
+        <module name="day6-intergration.test" />
       </profile>
     </annotationProcessing>
   </component>
@@ -29,6 +29,9 @@
       <module name="day5-tool-mcp" options="-parameters" />
       <module name="day5-tool-mcp.main" options="-parameters" />
       <module name="day5-tool-mcp.test" options="-parameters" />
+      <module name="day6-intergration" options="-parameters" />
+      <module name="day6-intergration.main" options="-parameters" />
+      <module name="day6-intergration.test" options="-parameters" />
     </option>
   </component>
 </project>

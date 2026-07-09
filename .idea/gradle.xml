@@ -48,6 +48,15 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/day6-intergration" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/day6-intergration" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

@@ -5,15 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f153ef77-57bb-4030-997c-d54bd056f881" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/day3-advisor-memory.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/day4-multimodal.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/day5-tool-mcp.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/config/ChatMemoryConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/controller/TravelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/mcp/McpToolCatalog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/service/TravelChatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/tool/BudgetTools$BudgetGuide.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/tool/BudgetTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/tool/LocalAreaTools$LocalAreaGuide.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/tool/LocalAreaTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/tool/TravelPreferenceTools$TravelPreference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/classes/java/main/com/study/day5toolmcp/tool/TravelPreferenceTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/reports/problems/problems-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/resources/main/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/resources/main/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/resources/main/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/tmp/compileJava/compileTransaction/stash-dir/TravelChatService.class.uniqueId1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-tool-mcp/build/tmp/compileJava/compileTransaction/stash-dir/TravelController.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/9.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/9.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/9.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/9.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/9.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/9.5.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/day6-intergration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/.oxlintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/public/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/public/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/src/assets/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/src/assets/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/frontend/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/Day6IntergrationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/cofig/ChatMessageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/cofig/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/controller/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/dto/HistoryMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/dto/StreamChunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/entity/ChatHistoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/repository/ChatHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/service/ChatHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/service/ChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/service/HelpdeskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/tool/CompanyRuleTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/tool/CustomerTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/java/com/study/day6intergration/tool/DateTimeTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-intergration/src/test/java/com/study/day6intergration/Day6IntergrationApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/.gradle/9.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/service/TravelChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/java/com/study/day5toolmcp/service/TravelChatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/static/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5-tool-mcp/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/day01-chat-client/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2-prompt-output/.gradle/9.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/day2-prompt-output/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/day3-advisor-memory/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4-multimodal/.gradle/9.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/day4-multimodal/.gradle/9.5.1/fileHashes/fileHashes.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +113,9 @@
     <projectState path="$PROJECT_DIR$/day5-tool-mcp">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/day6-intergration">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -43,21 +123,24 @@
         <task path="$PROJECT_DIR$/day5-tool-mcp">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/day6-intergration">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="day5-tool-mcp" type="f1a62948:ProjectNode" />
+                <item name="day6-intergration" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="day5-tool-mcp" type="f1a62948:ProjectNode" />
+                <item name="day6-intergration" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="day5-tool-mcp" type="f1a62948:ProjectNode" />
+                <item name="day6-intergration" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
@@ -71,9 +154,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,37 +172,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.day3-advisor-memory 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.day4-multimodal 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.day5-tool-mcp [bootRun].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Day3AdvisorMemoryApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Day4MultimodalApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/금정산2-PC16/Desktop/spring-practice&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.day3-advisor-memory 빌드.executor": "Run",
+    "Gradle.day4-multimodal 빌드.executor": "Run",
+    "Gradle.day5-tool-mcp [bootRun].executor": "Run",
+    "Gradle.day6-intergration [bootRun].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Day3AdvisorMemoryApplication.executor": "Run",
+    "Spring Boot.Day4MultimodalApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/금정산2-PC16/Desktop/spring-practice/day6-intergration",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\금정산2-PC16\Desktop\spring-practice\day6-intergration" />
+      <recent name="C:\Users\금정산2-PC16\Desktop\spring-practice\day6-intergration\src\main\java\com\study\day6intergration\tool" />
+      <recent name="C:\Users\금정산2-PC16\Desktop\spring-practice\day6-intergration\src\main\java\com\study\day6intergration\service" />
+      <recent name="C:\Users\금정산2-PC16\Desktop\spring-practice\day6-intergration\src\main\java\com\study\day6intergration" />
       <recent name="C:\Users\금정산2-PC16\Desktop\spring-practice\day4-multimodal\images" />
-      <recent name="C:\Users\금정산2-PC16\Desktop\spring-practice\day4-multimodal\src\main\java\com\study\day4multimodal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\금정산2-PC16\Desktop\spring-practice\day3-advisor-memory\src\main\resources\static" />
@@ -150,11 +237,36 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.day5-tool-mcp [bootRun]">
+  <component name="RunManager" selected="Gradle.day6-intergration [bootRun]">
     <configuration name="day5-tool-mcp [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/day5-tool-mcp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="day6-intergration [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/day6-intergration" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -215,8 +327,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day6IntergrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="day6-intergration.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.day6intergration.Day6IntergrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.day6-intergration [bootRun]" />
         <item itemvalue="Gradle.day5-tool-mcp [bootRun]" />
       </list>
     </recent_temporary>
@@ -242,7 +363,9 @@
       <workItem from="1783410337994" duration="782000" />
       <workItem from="1783468266279" duration="18000" />
       <workItem from="1783487227011" duration="2713000" />
-      <workItem from="1783489952219" duration="8567000" />
+      <workItem from="1783489952219" duration="8797000" />
+      <workItem from="1783555487770" duration="8000" />
+      <workItem from="1783580954604" duration="3771000" />
     </task>
     <servers />
   </component>
